@@ -27,22 +27,62 @@ header {
     align-items: center;
 }
 
+
 header ul {
     list-style: none;
     display: flex;
     font-weight: 500;
     font-size: 1.1em;
+    flex-wrap: wrap;
 }
 
 header ul li {
     padding: 25px;
 }
-header .logo{
+
+header .logo {
     display: flex;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 0.2em;
 }
+
 main {
     background-color: #f6f6f6;
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+main .principal {
+    color: #17bf31;
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 400px;
+}
+
+main .equipe{
+    display: flex;
+    flex-direction: column;
+}
+
+main button{
+    margin-top: 25px;
+    background-color: #15bf2f;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+main .equipe img {
+    background-color: #17bf31;
+    border-radius: 50%;
+    width: 150px;
 }
 
 footer {
