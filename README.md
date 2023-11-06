@@ -4,7 +4,7 @@ Neste projeto aprendemos a transformar uma imagem em uma pagina web com HTML e C
     APRENDEMOS e Exercitamos:
         -usar ferramenta para descobrir o exadecimal da dor na imagem, utilizando as ferramentas do navegador.
         -importamos icones.
-        -importamos fonts.
+        -importamos fontes.
         -treinamos estilização e alinhamento com flexbox.
 
 
